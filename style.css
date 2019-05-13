@@ -1,0 +1,80 @@
+body{
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: maroon;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: maroon !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.index-start {
+    margin-bottom: 0;
+}
+
+.index-about {
+    background-color: aquamarine;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.about-body{
+    padding: 30px 0px 30px 0px;
+}
+
+.officers-body {
+    padding: 30px 0px 30px 0px;
+}
+
+.tab-header {
+    background-color: maroon;
+    height: auto;
+    width: 100%;
+    margin: 0;
+}
+
+.tab-header h3 {
+    background-color: #fff;
+    color: maroon;
+    padding: 25px 25px 25px 25px;
+    margin: 35px 35px 35px 35px;
+    text-align: center;
+}
+
+.tab-header h3:first-child, .tab-header h3:last-child {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.tab-header a {
+    text-decoration: none;
+    color: maroon;
+}
+footer{
+    background-color: maroon;
+    color: white;
+}
+
+footer .bml{
+    padding: 25px 25px 25px 25px;
+}

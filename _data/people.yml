@@ -1,0 +1,19 @@
+- name: "Adam"
+  occupation: "President"
+  description: "Adam is software developper and data analyst. he is the one who developped the front end design of IUS CS Group"
+  contact: "barel@bmlcenter.com"
+
+- name: "Zac"
+  occupation: "Secretary"
+  description: "Zac is software developper and data analyst. he is the one who developped the front end design of IUS CS Group"
+  contact: "barel@bmlcenter.com"
+
+- name: "Barel"
+  occupation: "Programmer"
+  description: "Barel is software developper and data analyst. he is the one who developped the front end design of IUS CS Group"
+  contact: "barel@bmlcenter.com"
+
+- name: "William"
+  occupation: "Programmer"
+  description: "William is software developper and data analyst. he is the one who developped the front end design of IUS CS Group"
+  contact: "barel@bmlcenter.com"

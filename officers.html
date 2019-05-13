@@ -1,0 +1,10 @@
+---
+layout: page
+title: About us
+permalink: officers/
+---
+
+
+{% for person in site.data.people %}
+    <h3>{{ person.name }}, {{ person.occupation }}</h3> {{ person.description }} <br>Contact: {{ person.contact }}<br>
+{% endfor %}
