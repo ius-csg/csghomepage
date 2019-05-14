@@ -1,6 +1,5 @@
-<<<<<<< HEAD
+
 theme: jekyll-theme-minimal
-=======
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -50,4 +49,3 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
->>>>>>> IUS CS GROUP first commit
