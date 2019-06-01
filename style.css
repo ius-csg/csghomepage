@@ -1,7 +1,7 @@
 /* This is the site-wide CSS file
 See https://styleguide.iu.edu/visual-style/colors.html for the IU color guide */
 body{
-    font-family: Montserrat, sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .navbar {
