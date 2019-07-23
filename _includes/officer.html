@@ -7,7 +7,7 @@
         </section>
         <section class="col-sm-8">   
             {% for person in site.data.people %}
-                <h3>{{ person.name }}, {{ person.occupation }}</h3> {{ person.description }} <br>Contact: {{ person.contact }}<br>
+                <h3>{{ person.name }}, {{ person.occupation }}</h3> <p>{{ person.description }} <br>Contact: {{ person.contact }}<br></p>
             {% endfor %}
         </section>         
     </div>
