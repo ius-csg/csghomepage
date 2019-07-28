@@ -85,7 +85,7 @@ body{
 .form-container {
     background-color: #FDEEE8;
     position: relative;
-    padding-bottom: 105%;
+    padding-bottom: 110%;
     height: 0;
     overflow: hidden;
 }
@@ -104,7 +104,7 @@ body{
     text-shadow: 3px 2px maroon;
 }
 .carousel-caption .space{
-    padding-top: 170px;
+    padding-top: 120px;
 }
 .carousel-caption .btn{
     padding: 15px 15px 15px 15px;
