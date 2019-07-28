@@ -74,6 +74,23 @@ body{
 .officers-body {
     padding: 30px 0px 30px 0px;
 }
+
+.calendar-container {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.form-container {
+    background-color: #FDEEE8;
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+
 /************************** CAROUSEL **********************************/
 .carousel-caption{
     position: absolute;
