@@ -1,7 +1,7 @@
 language: ruby
 cache: bundler # caching to speed up dependency installation
 rvm:
-- 2.4.1
+- 2.6
 before_install:
     - gem update --system
     - gem install bundler
@@ -12,7 +12,6 @@ addons:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-script:
 jobs:
   include:
     - stage: build

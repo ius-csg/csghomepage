@@ -18,6 +18,33 @@ body{
 .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
 }
+.nav li {
+    margin-top: 5px;   
+    border-right: 1px solid lightgray;
+}
+.nav li:last-child {
+    border-right: none;
+}
+.nav li a{
+    margin-right: 25px;
+    margin-left: 25px; 
+    color: black;
+}
+.nav li a:hover{
+    border-bottom: 5px solid lightgray;
+}
+
+.nav .dropdown-menu li{
+    border-right: none;
+}
+.nav .dropdown-menu li a{
+    border-right: none;
+    color: #FDEEE8;
+}
+.nav .fas {
+    color: #FDEEE8;
+    font-size: 36px;
+}
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: maroon !important;
@@ -47,9 +74,26 @@ body{
 .officers-body {
     padding: 30px 0px 30px 0px;
 }
-
+/************************** CAROUSEL **********************************/
+.carousel-caption{
+    position: absolute;
+    left: 0;
+    width: 80%;
+    top:5%;
+    margin-left: 10%;
+}
+.carousel-caption h1{
+    font-size: 50px;
+    text-shadow: 3px 2px maroon;
+}
+.carousel-caption .space{
+    padding-top: 170px;
+}
+.carousel-caption .btn{
+    padding: 15px 15px 15px 15px;
+}
 .tab-header {
-    background-color: maroon;
+    /*background-color: maroon;*/
     height: auto;
     width: 100%;
     margin: 0;
@@ -58,9 +102,14 @@ body{
 .tab-header h3 {
     background-color: #fff;
     color: maroon;
-    padding: 25px 25px 25px 25px;
-    margin: 35px 35px 35px 35px;
+    padding: 35px 25px 35px 25px;
+    margin: 35px 5px 35px 5px;
     text-align: center;
+    border: 5px solid maroon;
+}
+
+.tab-header h3:hover {
+    padding: 35px 35px 35px 25px;
 }
 
 .tab-header h3:first-child, .tab-header h3:last-child {
@@ -79,4 +128,39 @@ footer{
 
 footer .bml{
     padding: 25px 25px 25px 25px;
+}
+
+@media(max-width: 600px){
+    .tab-header h3 {
+        display: none !important;
+    }
+}
+
+@media(max-width: 767px){
+    .nav li {
+        border-right: none !important;
+    }
+}
+
+@media(max-width: 800px){
+    .nav li a {
+        margin-right: none !important;
+        margin-left: none !important; 
+        color: black;
+    }
+}
+
+@media(max-width: 1100px){
+    .nav li a {
+        margin-right: 10px;
+        margin-left: 10px; 
+        color: black;
+    }
+}
+@media(max-width: 1200px){
+    .nav li a {
+        margin-right: 15px;
+        margin-left: 15px; 
+        color: black;
+    }
 }

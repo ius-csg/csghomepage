@@ -1,0 +1,14 @@
+<div class="container officers-body">
+    <div class="row">
+            <h2>OFFICERS</h2>
+        <section class="col-sm-4">
+            <br>
+            <p>The CSG is governed by a group of five officers, elected yearly from the body of members. <br /> <br /> Interested in becoming an officer? Check out the <a href="assets/pdf/Constitution.pdf">CSG Constitution</a> to learn how.</p>
+        </section>
+        <section class="col-sm-8">   
+            {% for person in site.data.people %}
+                <h3>{{ person.name }}, {{ person.occupation }}</h3> <p>{{ person.description }} <br>Contact: {{ person.contact }}<br></p>
+            {% endfor %}
+        </section>         
+    </div>
+</div>
