@@ -1,6 +1,6 @@
 - name: "Matthew Hartman"
   occupation: "President"
-  description: ""
+  description: "Mathew is a computer Science and math major whos interests are an enigma. He started his interests in security with the Computer Security class here at IUS."
   contact: "matdhart@ius.edu"
 
 - name: "Adam Isaac"
@@ -11,16 +11,16 @@
 
 - name: "Zac Clifton"
   occupation: "Secretary"
-  description: "Zac Clifton loves to dips his hands any as many things as possible. He gained his interest in Cyber Security from working with robots and playing with radios.
+  description: "Zac loves to dips his hands any as many things as possible. He gained his interest in Cyber Security from working with robots and playing with radios.
   Most of his time is spend churning out automation, but once a blue moon takes a break to work on non-computer hobbies like beekeeping, aviation, and Kung-Fu."
   contact: "cliftonz@ius.edu"
 
 - name: "John Linder"
   occupation: "Treasurer"
-  description: ""
+  description: "Johnny is a computer Science major, who likes to ride life like a wave. He can write a really good email and enjoys tring new things."
   contact: "jelinder@iu.edu"
 
 - name: "Thomas Sager"
   occupation: "Events Coordinator"
-  description: ""
+  description: "Thomas is a Computer Science major, who enjoys a good cry over a freshly painted mini. He is currently employed as an intern at Waystar."
   contact: "sagert@iu.edu"
