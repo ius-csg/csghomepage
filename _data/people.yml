@@ -1,6 +1,6 @@
 - name: "Matthew Hartman"
   occupation: "President"
-  description: "#!/bin/description"
+  description: "Mathew is a computer Science and math major whos interests are an enigma. He started his interests in security with the Computer Security class here at IUS."
   contact: "matdhart@ius.edu"
 
 - name: "Adam Isaac"
@@ -17,10 +17,10 @@
 
 - name: "John Linder"
   occupation: "Treasurer"
-  description: ""
+  description: "Johnny is a computer Science major, who likes to ride life like a wave. He can write a really good email and enjoys tring new things."
   contact: "jelinder@iu.edu"
 
 - name: "Thomas Sager"
   occupation: "Events Coordinator"
-  description: ""
+  description: "Thomas is a Computer Science major, who enjoys a good cry over a freshly painted mini. He is currently employed as an intern at Waystar."
   contact: "sagert@iu.edu"
