@@ -16,5 +16,8 @@ jobs:
   include:
     - stage: build
       script: bundle exec jekyll build
+    - stage: output
+      script: cat ./_site/index.html
     - stage: testlinks
       script: bundle exec jekyll build && bundle exec htmlproofer ./_site --check-html
+    
