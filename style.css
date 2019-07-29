@@ -75,19 +75,8 @@ body{
     padding: 30px 0px 30px 0px;
 }
 
-.calendar-container {
-    position: relative;
-    padding-bottom: 50%;
-    height: 0;
-    overflow: hidden;
-}
-
 .form-container {
     background-color: #FDEEE8;
-    position: relative;
-    padding-bottom: 60%;
-    height: 0;
-    overflow: hidden;
 }
 
 
@@ -145,6 +134,14 @@ footer{
 
 footer .bml{
     padding: 25px 25px 25px 25px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-left: 10px;
+}
+
+p {
+    margin-left: 10px;
 }
 
 @media(max-width: 600px){
