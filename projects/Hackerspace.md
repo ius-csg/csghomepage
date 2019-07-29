@@ -1,7 +1,6 @@
 ---
 layout: page
 title: HackSpace
-permalink: Hackerspace
 ---
 
 ### The Hackerspace is a game cabinate that is based of a retro pie setup. The centerpiece is a raspberry pi 3 B+ that runs the RetroPi OS. 
