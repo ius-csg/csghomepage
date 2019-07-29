@@ -18,3 +18,4 @@ jobs:
       script: bundle exec jekyll build
     - stage: testlinks
       script: bundle exec jekyll build && bundle exec htmlproofer ./_site --check-html
+    
