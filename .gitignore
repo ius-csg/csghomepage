@@ -1,6 +1,3 @@
-_site
-.sass-cache
-.jekyll-metadata
 vendor
 
 # Created by https://www.gitignore.io/api/ruby,jekyll
@@ -11,6 +8,7 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+*.lock
 
 ### Ruby ###
 *.gem
