@@ -17,7 +17,7 @@ jobs:
     - stage: build
       script: bundle exec jekyll build
     - stage: output
-      script: ls && cat ./index.html
+      script: ls && pwd && cat ./index.html
     - stage: testlinks
       script: bundle exec jekyll build && bundle exec htmlproofer ./_site --check-html
     
