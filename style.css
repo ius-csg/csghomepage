@@ -1,180 +1,190 @@
 /* This is the site-wide CSS file
 See https://styleguide.iu.edu/visual-style/colors.html for the IU color guide */
-body{
-    font-family: 'IBM Plex Sans', sans-serif;
+body {
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .navbar {
-    margin-bottom: 0;
-    background-color: maroon;
-    z-index: 9999;
-    border: 0;
-    font-size: 12px !important;
-    line-height: 1.42857143 !important;
-    letter-spacing: 4px;
-    border-radius: 0;
+  margin-bottom: 0;
+  background-color: maroon;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
 }
 
-.navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
+.navbar li a,
+.navbar .navbar-brand {
+  color: #fff !important;
 }
 .nav li {
-    margin-top: 5px;   
-    border-right: 1px solid lightgray;
+  margin-top: 5px;
+  border-right: 1px solid lightgray;
 }
 .nav li:last-child {
-    border-right: none;
+  border-right: none;
 }
-.nav li a{
-    margin-right: 25px;
-    margin-left: 25px; 
-    color: black;
+.nav li a {
+  margin-right: 25px;
+  margin-left: 25px;
+  color: black;
 }
-.nav li a:hover{
-    border-bottom: 5px solid lightgray;
+.nav li a:hover {
+  border-bottom: 5px solid lightgray;
 }
 
-.nav .dropdown-menu li{
-    border-right: none;
+.nav .dropdown-menu li {
+  border-right: none;
 }
-.nav .dropdown-menu li a{
-    border-right: none;
-    color: #FDEEE8;
+.nav .dropdown-menu li a {
+  border-right: none;
+  color: #fdeee8;
 }
 .nav .fas {
-    color: #FDEEE8;
-    font-size: 36px;
+  color: #fdeee8;
+  font-size: 36px;
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
-    color: maroon !important;
-    background-color: #fff !important;
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: maroon !important;
+  background-color: #fff !important;
 }
 
 .navbar-default .navbar-toggle {
-    border-color: transparent;
-    color: #fff !important;
+  border-color: transparent;
+  color: #fff !important;
 }
 
 .index-start {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .index-about {
-    background-color: #FDEEE8;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+  background-color: #fdeee8;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.about-body{
-    padding: 30px 0px 30px 0px;
+.about-body {
+  padding: 30px 0px 30px 0px;
 }
 
 .officers-body {
-    padding: 30px 0px 30px 0px;
+  padding: 30px 0px 30px 0px;
 }
 
 .form-container {
-    background-color: #FDEEE8;
+  background-color: #fdeee8;
 }
-
 
 /************************** CAROUSEL **********************************/
-.carousel-caption{
-    position: absolute;
-    left: 0;
-    width: 80%;
-    top:5%;
-    margin-left: 10%;
+.carousel-caption {
+  position: absolute;
+  left: 0;
+  width: 80%;
+  top: 5%;
+  margin-left: 10%;
 }
-.carousel-caption h1{
-    font-size: 50px;
-    text-shadow: 3px 2px maroon;
+.carousel-caption h1 {
+  font-size: 50px;
+  text-shadow: 3px 2px maroon;
 }
-.carousel-caption .space{
-    padding-top: 75px;
+.carousel-caption .space {
+  padding-top: 75px;
 }
-.carousel-caption .btn{
-    padding: 15px 15px 15px 15px;
+.carousel-caption .btn {
+  padding: 15px 15px 15px 15px;
 }
 .tab-header {
-    /*background-color: maroon;*/
-    height: auto;
-    width: 100%;
-    margin: 0;
+  /*background-color: maroon;*/
+  height: auto;
+  width: 100%;
+  margin: 0;
 }
 
 .tab-header h3 {
-    background-color: #fff;
-    color: maroon;
-    padding: 35px 25px 35px 25px;
-    margin: 35px 5px 35px 5px;
-    text-align: center;
-    border: 5px solid maroon;
+  background-color: #fff;
+  color: maroon;
+  padding: 35px 25px 35px 25px;
+  margin: 35px 5px 35px 5px;
+  text-align: center;
+  border: 5px solid maroon;
 }
 
 .tab-header h3:hover {
-    padding: 35px 35px 35px 25px;
+  padding: 35px 35px 35px 25px;
 }
 
-.tab-header h3:first-child, .tab-header h3:last-child {
-    margin-right: 0;
-    margin-left: 0;
+.tab-header h3:first-child,
+.tab-header h3:last-child {
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .tab-header a {
-    text-decoration: none;
-    color: maroon;
+  text-decoration: none;
+  color: maroon;
 }
-footer{
-    background-color: maroon;
-    color: white;
-}
-
-footer .bml{
-    padding: 25px 25px 25px 25px;
+footer {
+  background-color: maroon;
+  color: white;
 }
 
-.h1, .h2, .h3, h1, h2, h3 {
-    margin-left: 10px;
+footer .bml {
+  padding: 25px 25px 25px 25px;
+}
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+  margin-left: 10px;
 }
 
 p {
+  margin-left: 10px;
+}
+
+@media (max-width: 540px) {
+  .carousel-caption h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav li {
+    border-right: none !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav li a {
+    margin-right: none !important;
+    margin-left: none !important;
+    color: black;
+  }
+}
+
+@media (max-width: 1100px) {
+  .nav li a {
+    margin-right: 10px;
     margin-left: 10px;
+    color: black;
+  }
 }
-
-@media(max-width: 600px){
-    .tab-header h3 {
-        display: none !important;
-    }
-}
-
-@media(max-width: 767px){
-    .nav li {
-        border-right: none !important;
-    }
-}
-
-@media(max-width: 800px){
-    .nav li a {
-        margin-right: none !important;
-        margin-left: none !important; 
-        color: black;
-    }
-}
-
-@media(max-width: 1100px){
-    .nav li a {
-        margin-right: 10px;
-        margin-left: 10px; 
-        color: black;
-    }
-}
-@media(max-width: 1200px){
-    .nav li a {
-        margin-right: 15px;
-        margin-left: 15px; 
-        color: black;
-    }
+@media (max-width: 1200px) {
+  .nav li a {
+    margin-right: 15px;
+    margin-left: 15px;
+    color: black;
+  }
+  .tab-header h3 {
+    display: none !important;
+  }
 }
