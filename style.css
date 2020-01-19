@@ -81,12 +81,18 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
-.resource-body{
-  float: left;
-  
+.resourcebox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  flex-direction: column;
+}
+
+.resourceitem{
+  width: 35rem;
 }
 
 .about-body {
