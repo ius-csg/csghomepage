@@ -69,6 +69,32 @@ body {
   padding: 0;
 }
 
+.index-officers {
+  background-color: #fdeee8;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.index-resource {
+  background-color: #fdeee8;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.resourcebox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  flex-direction: column;
+}
+
+.resourceitem{
+  width: 35rem;
+}
+
 .about-body {
   padding: 30px 0px 30px 0px;
 }
