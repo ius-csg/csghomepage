@@ -69,6 +69,19 @@ body {
   padding: 0;
 }
 
+.index-resource {
+  background-color: #fdeee8;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.resource-body{
+  float: left;
+  
+}
+
 .about-body {
   padding: 30px 0px 30px 0px;
 }
