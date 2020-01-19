@@ -1,3 +1,30 @@
+<style>
+    .profile{
+      border-radius: 45%;
+    }
+    .grid-container {
+        display: grid;
+        grid-template: auto auto;
+        padding: .5rem;
+        
+    }
+    .grid-container-flex {
+        display: flex;
+        grid-template-columns: auto auto;
+        grid-gap: 1rem;
+        
+        padding: 10px;
+    }
+    
+    .item1{
+        grid-column: 1/2;
+        padding-right: 2rem;
+        
+        text-align: Left;
+    }
+</style>
+
+
 <div class="container officers-body">
     <div class="row">
             <h2>OFFICERS</h2>
@@ -6,9 +33,32 @@
             <p>The CSG is governed by a group of five officers, elected yearly from the body of members. <br /> <br /> Interested in becoming an officer? Check out the <a href="assets/pdf/Constitution.pdf">CSG Constitution</a> to learn how.</p>
         </section>
         <section class="col-sm-8">   
+            
             {% for person in site.data.people %}
-                <h3>{{ person.name }}, {{ person.occupation }}</h3> <p>{{ person.description }} <br>Contact: {{ person.contact }}<br></p>
+                <div class="grid-container">
+                    <h3 class="item1">
+                        {{ person.name }}, {{ person.occupation }}
+                    </h3> 
+                    <p class="grid-container-flex">
+                        
+                        <img src="../assets/images/officers/{{person.occupation}}.jpg" alt="Avatar" width="55" height="75" class="profile">
+                        {{ person.description }} 
+                        <br>
+                        Contact: {{ person.contact }}
+                        <br/>
+                    </p>
+                </div>
+                
             {% endfor %}
+            
+            
+            
+            
+            
+            <!--{% for person in site.data.people %}
+                <h3>{{ person.name }}, {{ person.occupation }}</h3> <p>{{ person.description }} <br>Contact: {{ person.contact }}<br></p>
+            {% endfor %} -->
+
         </section>         
     </div>
 </div>
