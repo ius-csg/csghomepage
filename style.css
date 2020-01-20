@@ -107,6 +107,10 @@ body {
   background-color: #fdeee8;
 }
 
+.footer-text{
+  text-align: center;
+}
+
 /************************** CAROUSEL **********************************/
 .carousel-caption {
   position: absolute;
