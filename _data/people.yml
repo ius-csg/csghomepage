@@ -1,6 +1,6 @@
 - name: "Zac Clifton"
   occupation: "President"
-  description: "Zac Clifton loves to dips his hands any as many things as possible. He gained his interest in Cyber Security from working with robots and playing with radios.
+  description: "Zac loves to dips his hands any as many things as possible. He gained his interest in Cyber Security from working with robots and playing with radios.
   Most of his time is spend churning out automation, but once a blue moon takes a break to work on non-computer hobbies like beekeeping, aviation, and Kung-Fu."
   contact: "cliftonz@ius.edu"
 
@@ -12,7 +12,7 @@
 
 - name: "Matthew Hartman"
   occupation: "Secretary"
-  description: "Mathew is a Computer Science and math major whose interests are an enigma. He started his interests in security with the Computer Security class here at IUS."
+  description: "Matthew is a Computer Science and math major whose interests are an enigma."
   contact:  "matdhart@ius.edu"
 
 - name: "Alex Stiner"
@@ -22,5 +22,5 @@
 
 - name: "Jason Gallivan"
   occupation: "Asset-Manager"
-  description: "Jason Gallavin is the Inventory manager and Project manager of the CS Labs application. He makes sure that all of our assets are properly entered into our inventory system. He also heads up the planning along with providing development assistance to our developers."
-  contact: "jgallavi@iu.edu"
+  description: "Jason is the Inventory and Project manager of the CS Labs application. He properly catalogues CSG assets into our inventory system. He provides development assistance and is a leading contributor to our apps and progects." 
+   contact: "jgallavi@iu.edu"
