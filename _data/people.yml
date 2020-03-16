@@ -15,12 +15,12 @@
   description: "Mathew is a Computer Science and math major whose interests are an enigma. He started his interests in security with the Computer Security class here at IUS."
   contact:  "matdhart@ius.edu"
 
-- name: "Walker Bolen"
-  occupation: "Treasurer"
-  description: "Walker is a computer Science major, who enjoys chilling in his spare time"
-  contact: "wbolen@iu.edu"
+- name: "Alex Stiner"
+  occupation: "Event's Coordinator"
+  description: "Alex is excited to explore new challenges and experiences as a Computer Science major. She also enjoys outdoor activities such as camping, hiking and kayaking"
+  contact: "anstiner@iu.edu"
 
 - name: "Jason Gallivan"
-  occupation: "Assests-Manager"
+  occupation: "Asset-Manager"
   description: "Jason Gallavin is the Inventory manager and Project manager of the CS Labs application. He makes sure that all of our assets are properly entered into our inventory system. He also heads up the planning along with providing development assistance to our developers."
   contact: "jgallavi@iu.edu"
