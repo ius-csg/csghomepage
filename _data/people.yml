@@ -16,11 +16,11 @@
   contact:  "matdhart@ius.edu"
 
 - name: "Alex Stiner"
-  occupation: "Event's Coordinator"
+  occupation: "Event Coordinator"
   description: "Alex is excited to explore new challenges and experiences as a Computer Science major. She also enjoys outdoor activities such as camping, hiking and kayaking"
   contact: "anstiner@iu.edu"
 
 - name: "Jason Gallivan"
   occupation: "Asset-Manager"
-  description: "Jason is the Inventory and Project manager of the CS Labs application. He properly catalogues CSG assets into our inventory system. He provides development assistance and is a leading contributor to our apps and progects." 
+  description: "Jason is the asset manager of the CSG. His duities include cataloging CSG assets, providing development assistance and is a leading contributor to our apps and projects, such as the CS Labs application." 
   contact: "jgallavi@iu.edu"
