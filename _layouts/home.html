@@ -1,6 +1,13 @@
 ---
 layout: "wrapper"
 ---
+<body onload = "myAlert()"/>
+
+<script>
+    function myAlert() {
+        alert("To get to our virtual meeting sessions please go to schedule section below and click on event.");
+    }
+</script>
 
 <!---<h1 class="text-center">WELCOME TO IUS CS GROUP</h1>-->
 <section id="home" class="index-start">
@@ -26,6 +33,7 @@ layout: "wrapper"
     </div>
 </section>-->
 
+
 <section id="about" class="index-about">
     {% include aboutus.html %}
 </section>
@@ -45,3 +53,6 @@ layout: "wrapper"
 <section id="resources" class="index-resource">
         {% include resources.html %}
 </section>
+
+
+
