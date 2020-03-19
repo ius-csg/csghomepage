@@ -65,3 +65,6 @@ build-iPhoneSimulator/
 .rvmrc
 
 # End of https://www.gitignore.io/api/ruby,jekyll
+
+# Don't keep bins from Bundler
+bin/
