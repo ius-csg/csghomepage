@@ -105,6 +105,10 @@ body {
 
 .form-container {
   background-color: #fdeee8;
+  }
+
+.containerwarning {
+  background-color: gold;
 }
 
 /************************** CAROUSEL **********************************/
