@@ -109,9 +109,13 @@ body {
 
 .containerwarning {
   background-color: gold;
-  position: relative; 
-  margin: 1;
-  padding: .2%;
+  text-align: center;
+  position: relative;
+  width: auto;
+  margin: 0;
+  padding-top: 1px;
+  padding: 0.15%;
+  border-radius: 5px;
 }
 
 /************************** CAROUSEL **********************************/
