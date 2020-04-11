@@ -1,14 +1,13 @@
 <style>
-    .grid-container {
+
+    .officer {
         padding: .5rem;
     }
 
-    .item1 {
-        grid-column: 1/2;
+    .officer__name {
         padding-right: 2rem;
-
-        text-align: Left;
     }
+
     .officer__content {
         display: flex;
         align-items: flex-start;
@@ -36,35 +35,22 @@
             <p>The CSG is governed by a group of five officers, elected yearly from the body of members. <br /> <br /> Interested in becoming an officer? Check out the <a href="assets/pdf/Constitution.pdf">CSG Constitution</a> to learn how.</p>
         </section>
         <section class="col-sm-8">
-
             {% for person in site.data.people %}
-                <div class="grid-container">
-                    <h3 class="item1">
-                        {{ person.name }}, {{ person.occupation }}
-                    </h3>
+                <div class="officer">
+                    <h3 class="officer__name">{{ person.name }}, {{ person.occupation }}</h3>
                     <div class="officer__content">
                         <!-- A div must be used in order to provide a cropped version of the image with the aspect ratio retained -->
                         <div style="background-image: url('../assets/images/officers/{{person.occupation}}.jpg');" class='officer__content__portrait'></div>
                         <p>
-                            {{ person.description }}
-                            <br>
-                            Contact: {{ person.contact }}
-                            <br/>
+                            {{ person.description }} <br>
+                            Contact: {{ person.contact }} <br/>
                         </p>
                     </div>
-
                 </div>
-
             {% endfor %}
-
-
-
-
-
             <!--{% for person in site.data.people %}
                 <h3>{{ person.name }}, {{ person.occupation }}</h3> <p>{{ person.description }} <br>Contact: {{ person.contact }}<br></p>
             {% endfor %} -->
-
         </section>
     </div>
 </div>
