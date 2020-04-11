@@ -17,5 +17,4 @@ jobs:
     - stage: build
       script: bundle exec jekyll build
     - stage: testlinks
-      script: bundle exec jekyll build && bundle exec htmlproofer ./_site --check-html
-    
+      script: bundle exec jekyll build && bundle exec htmlproofer --url-ignore "/cslabs" ./_site --check-html
