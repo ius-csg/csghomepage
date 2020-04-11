@@ -12,9 +12,5 @@ addons:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-jobs:
-  include:
-    - stage: build
-      script: bundle exec jekyll build
-    - stage: testlinks
-      script: bundle exec jekyll build && bundle exec htmlproofer --url-ignore "/cslabs" ./_site --check-html
+before_script: bundle exec jekyll build
+script: bundle exec htmlproofer --url-ignore "/cslabs" ./_site --check-html
