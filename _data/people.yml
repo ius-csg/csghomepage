@@ -6,7 +6,7 @@
 
 - name: "Adam Isaac"
   occupation: "Vice-President"
-  description: "Adam is an avid Linux user who gained interest in computer security experimenting with the various bots crawling his personal webserver. 
+  description: "Adam is an avid Linux user who gained interest in computer security experimenting with the various bots crawling his personal webserver.
   Most of his time is spent playing paintball, and figuring out who pressed the wrong any key. "
   contact: "acisaac@iu.edu"
 
@@ -20,7 +20,7 @@
   description: "Alex is excited to explore new challenges and experiences as a Computer Science major. She also enjoys outdoor activities such as camping, hiking and kayaking"
   contact: "anstiner@iu.edu"
 
-- name: "Jason Gallivan"
+- name: "Jason Gallavin"
   occupation: "Asset-Manager"
-  description: "Jason is the asset manager of the CSG. His duities include cataloging CSG assets, providing development assistance and is a leading contributor to our apps and projects, such as the CS Labs application. " 
+  description: "Jason is the asset manager of the CSG. His duties include cataloging CSG assets, providing development assistance and is a leading contributor to our apps and projects, such as the CS Labs application. "
   contact: "jgallavi@iu.edu"
