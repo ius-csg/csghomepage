@@ -21,6 +21,8 @@ body {
 }
 .nav li {
   margin-top: 5px;
+  /* ensure that the margin does not clip into the next menu item in the mobile menu */
+  overflow: auto;
   border-right: 1px solid lightgray;
 }
 .nav li:last-child {
@@ -190,23 +192,13 @@ p {
   margin-left: 10px;
 }
 
-@media (max-width: 540px) {
-  .carousel-caption h1 {
-    font-size: 25px;
-  }
-}
-
-@media (max-width: 767px) {
-  .nav li {
-    border-right: none !important;
-  }
-}
-
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   .nav li a {
-    margin-right: none !important;
-    margin-left: none !important;
-    color: black;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .tab-header h3 {
+    display: none !important;
   }
 }
 
@@ -214,16 +206,30 @@ p {
   .nav li a {
     margin-right: 10px;
     margin-left: 10px;
-    color: black;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 991px) {
   .nav li a {
-    margin-right: 15px;
-    margin-left: 15px;
-    color: black;
+    margin-right: 0;
+    margin-left: 0;
   }
-  .tab-header h3 {
-    display: none !important;
+}
+
+@media (max-width: 800px) {
+  .carousel-caption h1 {
+    font-size: 35px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .nav li {
+    border-right: none !important;
+  }
+}
+
+@media (max-width: 540px) {
+  .carousel-caption h1 {
+    font-size: 25px;
   }
 }
