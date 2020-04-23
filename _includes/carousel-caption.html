@@ -1,23 +1,17 @@
-<div class="space"></div>
-<section class="tab-header">                  
+<div class="carousel-caption">
+    <div class="presentation">
+        <h1>Welcome to the Computer Security Group at IU Southeast</h1><br>
+    </div>
+    <div class="space"></div>
+    <section class="tab-header">
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
-                <h3><a href="#about">ABOUT</a></h3>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
-                <h3><a href="#get involved">GET INVOLVED</a></h3>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
-                <h3><a href="#officers">OFFICERS</a></h3>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
-                <h3><a href="#schedule">SCHEDULE</a></h3>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
-                <h3><a href="#resources">RESOURCES</a></h3>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
-                <h3><a href="/cslabs">CSLABS</a></h3>
-            </div>
-        </div>                   
-</section>
+            {% include carousel-caption-box.html label="ABOUT" href="#about" %}
+            {% include carousel-caption-box.html label="GET INVOLVED" href="#get involved" %}
+            {% include carousel-caption-box.html label="OFFICERS" href="#officers" %}
+            {% include carousel-caption-box.html label="SCHEDULE" href="#schedule" %}
+            {% include carousel-caption-box.html label="RESOURCES" href="#resources" %}
+            {% include carousel-caption-box.html label="CSLABS" href="/cslabs" %}
+        </div>
+    </section>
+</div>
+
