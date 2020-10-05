@@ -37,15 +37,9 @@ jobs:
           bundler-cache: true # optional, default is false
           # The working directory to use for resolving paths for .ruby-version, .tool-versions and Gemfile.lock.
           working-directory: ${{env.working-directory}} # optional, default is .
-      - name: test
-        run: |
-           - "ls"
            
-      - name: install jekyll and test
-        run: |
-           - "bundle install"
-           - "bundle exec rake"
-           - "bundle exec htmlproofer --url-ignore '/cslabs' ./_site --check-html"
+      - run: "bundle exec rake"
+      - run: "bundle exec htmlproofer --url-ignore '/cslabs' ./_site --check-html"
       - name: GitHub Releases
         # You may pin to the exact commit or the version.
         # uses: fnkr/github-action-ghr@96b1448dc6162f370067e1de51e856e733a76b4f
