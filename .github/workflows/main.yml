@@ -31,7 +31,7 @@ jobs:
           # For 'Gemfile.lock', the version is determined based on the BUNDLED WITH section from the file Gemfile.lock, $BUNDLE_GEMFILE.lock or gems.locked.
           # Defaults to 'Gemfile.lock' if the file exists and 'latest' otherwise.
 
-          bundler: "bundle install"  # optional, default is default
+          #bundler: "bundle install"  # optional, default is default
           # Run "bundle install", and cache the result automatically. Either true or false.
           #bundler-cache: # optional, default is false
           # The working directory to use for resolving paths for .ruby-version, .tool-versions and Gemfile.lock.
