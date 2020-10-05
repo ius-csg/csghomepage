@@ -14,7 +14,8 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
+    env:
+      working-directory: ./ 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -31,20 +32,19 @@ jobs:
           # For 'Gemfile.lock', the version is determined based on the BUNDLED WITH section from the file Gemfile.lock, $BUNDLE_GEMFILE.lock or gems.locked.
           # Defaults to 'Gemfile.lock' if the file exists and 'latest' otherwise.
 
-          bundler: true  # optional, default is default
+          #bundler: true  # optional, default is default
           # Run "bundle install", and cache the result automatically. Either true or false.
-          #bundler-cache: # optional, default is false
+          bundler-cache: true # optional, default is false
           # The working directory to use for resolving paths for .ruby-version, .tool-versions and Gemfile.lock.
-          #working-directory: # optional, default is .
+          working-directory: ${{env.working-directory}} # optional, default is .
       - name: test
         run: |
            - "ls"
-           - "cd ./csghomepage"
            
       - name: install jekyll and test
         run: |
            - "bundle install"
-           - "bundle exec jekyll build"
+           - "bundle exec rake"
            - "bundle exec htmlproofer --url-ignore '/cslabs' ./_site --check-html"
       - name: GitHub Releases
         # You may pin to the exact commit or the version.
