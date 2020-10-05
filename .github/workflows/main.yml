@@ -38,6 +38,7 @@ jobs:
           #working-directory: # optional, default is .
       - name: install jekyll and test
         run: |
+           - "bundle install"
            - "bundle exec jekyll build"
            - "bundle exec htmlproofer --url-ignore '/cslabs' ./_site --check-html"
       - name: GitHub Releases
