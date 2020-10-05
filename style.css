@@ -174,7 +174,7 @@ body {
   background-color: #fdeee8;
   }
 
-.containerwarning {
+.container-warning {
   background-color: gold;
   text-align: center;
   position: relative;
@@ -190,7 +190,7 @@ body {
   position: absolute;
   left: 0;
   width: 80%;
-  top: 5%;
+  top: 6%;
   margin-left: 10%;
 }
 .carousel-caption h1 {
