@@ -73,8 +73,35 @@ body {
   padding: 0;
 }
 
-.index-officers {
+.index-status {
   background-color: #fdeee8;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.index-getInvolved {
+  background-color: #fdeee8;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.index-officers {
+  #background-color: #fdeee8;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.index-calendar {
+  background-color: #fdeee8;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.index-resources {
+  #background-color: #fdeee8;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -99,8 +126,44 @@ body {
   width: 35rem;
 }
 
+.resourceSection {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
 .about-body {
   padding: 30px 0px 30px 0px;
+}
+
+.status {
+  padding: 30px 0px 30px 0px;
+}
+
+.status-body{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.status-badges {
+  display: flex;
+  flex-direction: column;
+  justify-content: Center;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 20rem;
+  border: solid black;
+
+}
+
+.status-badges-container {
+  display: flex;
+  flex-direction: row;
+  #justify-content: flex-start;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+  padding-right: 10px;
 }
 
 .officers-body {
