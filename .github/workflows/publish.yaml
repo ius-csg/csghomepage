@@ -1,0 +1,22 @@
+name: Pre-Release
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: 
+      - "master"
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  Pre-Release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: false
+          title: "Production Build"
+          files: "./_site/*"
+        

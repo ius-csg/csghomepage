@@ -1,0 +1,56 @@
+name: CI
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  pull_request:
+    branches: [ master ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    env:
+      working-directory: ./ 
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+        
+      - name: Generate build number
+        id: buildnumber
+        uses: einaregilsson/build-number@v2 
+        with:
+          token: ${{secrets.github_token}}
+      
+      - name: Setup Ruby, JRuby and TruffleRuby
+      # You may pin to the exact commit or the version.
+      # uses: ruby/setup-ruby@8bc9ca9ace0139aae24423f15269b9673354b495
+        uses: ruby/setup-ruby@v1.46.1
+        with:
+          # Engine and version to use, see the syntax in the README. Reads from .ruby-version or .tool-versions if unset.
+          ruby-version: 2.6.6 # optional, default is default
+          # The version of Bundler to install. Either 'none', 1, 2, 'latest' or 'Gemfile.lock'.
+          # For 'Gemfile.lock', the version is determined based on the BUNDLED WITH section from the file Gemfile.lock, $BUNDLE_GEMFILE.lock or gems.locked.
+          # Defaults to 'Gemfile.lock' if the file exists and 'latest' otherwise.
+
+          #bundler: true  # optional, default is default
+          # Run "bundle install", and cache the result automatically. Either true or false.
+          bundler-cache: true # optional, default is false
+          # The working directory to use for resolving paths for .ruby-version, .tool-versions and Gemfile.lock.
+          working-directory: ${{env.working-directory}} # optional, default is .
+           
+      - run: "bundle exec rake"
+      - run: "bundle exec htmlproofer --url-ignore '/cslabs' ./_site --check-html"
+      - run: echo "Build Id is ${{ steps.buildnumber.outputs.build_number }}"
+      #- uses: actions/upload-artifact@v2.2.0
+      #  with:
+          # Artifact name
+      #    name: site_${{ steps.buildnumber.outputs.build_number }}  # optional, default is artifact
+          # A file, directory or wildcard pattern that describes what to upload
+      #    path: ./_site
+          # The desired behavior if no files are found using the provided path.
+      
+        
