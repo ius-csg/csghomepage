@@ -183,7 +183,10 @@ body {
   padding: 0.15%;
   border-radius: 5px;
 }
-
+.subtitle {
+  display: flex;
+  justify-content: center;
+}
 /************************** CAROUSEL **********************************/
 .carousel-caption {
   position: absolute;
