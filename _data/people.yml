@@ -6,7 +6,7 @@
   contact: "acisaac@iu.edu"
 
 - name: "Alex Stiner"
-  occupation: "Vice-President"
+  occupation: "Vice President"
   description: "Alex is excited to explore new challenges and experiences as a Computer Science major. She also enjoys outdoor activities such as camping, hiking and kayaking"
   contact: "anstiner@iu.edu"
 
@@ -15,12 +15,13 @@
   description: ""
   contact:  ""
 
+- name: "Zamia Torres"
+  occupation: "Events Coordinator"
+  description: ""
+  contact: ""
+
 - name: "Edward Utria"
   occupation: "Inventory Manager"
   description: ""
   contact: ""
 
-- name: "Zamia Torres"
-  occupation: "Events Coordinator"
-  description: ""
-  contact: ""
