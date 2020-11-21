@@ -1,26 +1,27 @@
-- name: "Zac Clifton"
-  occupation: "President"
-  description: "Zac loves to dips his hands any as many things as possible. He gained his interest in Cyber Security from working with robots and playing with radios.
-  Most of his time is spend churning out automation, but once a blue moon takes a break to work on non-computer hobbies like beekeeping, aviation, and Kung-Fu."
-  contact: "cliftonz@ius.edu"
 
 - name: "Adam Isaac"
-  occupation: "Vice-President"
+  occupation: "President"
   description: "Adam is an avid Linux user who gained interest in computer security experimenting with the various bots crawling his personal webserver.
   Most of his time is spent playing paintball, and figuring out who pressed the wrong any key. "
   contact: "acisaac@iu.edu"
 
-- name: "Matthew Hartman"
-  occupation: "Secretary"
-  description: "Matthew is a Computer Science and math major whose interests are an enigma."
-  contact:  "matdhart@ius.edu"
-
 - name: "Alex Stiner"
-  occupation: "Event-Coordinator"
+  occupation: "Vice President"
   description: "Alex is excited to explore new challenges and experiences as a Computer Science major. She also enjoys outdoor activities such as camping, hiking and kayaking"
   contact: "anstiner@iu.edu"
 
-- name: "Jason Gallavin"
-  occupation: "Asset-Manager"
-  description: "Jason is the asset manager of the CSG. His duties include cataloging CSG assets, providing development assistance and is a leading contributor to our apps and projects, such as the CS Labs application. "
-  contact: "jgallavi@iu.edu"
+- name: "Zaid Hussain"
+  occupation: "Secretary"
+  description: "Zaid is a curious Computer Science major, who loves learning new technologies and has a constant desire to figure out how things work the way they do."
+  contact:  "zakhhuss@iu.edu"
+
+- name: "Zamia Torres"
+  occupation: "Events Coordinator"
+  description: "Zamia loves learning anything computer science related and likes to go caving in her spare time."
+  contact: "zetorres@iu.edu"
+
+- name: "Edward Utria"
+  occupation: "Inventory Manager"
+  description: "Edward is a Computer Science Major who enjoys the constant problem solving struggle."
+  contact: "eutria@iu.edu"
+
