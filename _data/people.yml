@@ -12,16 +12,16 @@
 
 - name: "Zaid Hussain"
   occupation: "Secretary"
-  description: ""
-  contact:  ""
+  description: "Zaid is a curious Computer Science major, who loves learning new technologies and has a constant desire to figure out how things work the way they do."
+  contact:  "zakhhuss@iu.edu"
 
 - name: "Zamia Torres"
   occupation: "Events Coordinator"
-  description: ""
-  contact: ""
+  description: "Zamia loves learning anything computer science related and likes to go caving in her spare time."
+  contact: "zetorres@iu.edu"
 
 - name: "Edward Utria"
   occupation: "Inventory Manager"
-  description: ""
-  contact: ""
+  description: "Edward is a Computer Science Major who enjoys the constant problem solving struggle."
+  contact: "eutria@iu.edu"
 
