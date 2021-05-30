@@ -44,7 +44,9 @@ jobs:
           working-directory: ${{env.working-directory}} # optional, default is .
            
       - run: "bundle exec rake"
+
       - run: "bundle exec htmlproofer --url-ignore '/cslabs,\"(.*?)list.ius.edu(.*?)\"' ./_site --check-html"
+
       - run: echo "Build Id is ${{ steps.buildnumber.outputs.build_number }}"
       #- uses: actions/upload-artifact@v2.2.0
       #  with:
