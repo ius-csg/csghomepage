@@ -74,20 +74,20 @@ body {
 }
 
 .index-status {
-  background-color: #fdeee8;
+  #background-color: #fdeee8;
   width: 100%;
   margin: 0;
   padding: 0;
 }
 
 .index-getInvolved {
-  background-color: #fdeee8;
+  #background-color: #fdeee8;
   width: 100%;
   margin: 0;
   padding: 0;
 }
 .index-officers {
-  #background-color: #fdeee8;
+  background-color: #fdeee8;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -95,6 +95,13 @@ body {
 
 .index-calendar {
   background-color: #fdeee8;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+index-calendar {
+  #background-color: #fdeee8;
   width: 100%;
   margin: 0;
   padding: 0;

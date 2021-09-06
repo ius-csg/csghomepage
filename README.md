@@ -4,7 +4,7 @@ This is the web site is for the CSG web page.
 ## Build instructions 
 To build the website into HTML, follow these steps.
 
-1. Install Bundler and Ruby somewhere on your system.
+1. Install Ruby version 2.x on your system with the provided [installer](https://rubyinstaller.org/downloads/) 
 2. Install dependencies via Bundler. Ex. `bundle install`
 3. Build using rake. Ex. `bundle exec rake`
 4. Generated HTML will be placed in ./_site
