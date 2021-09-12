@@ -191,8 +191,7 @@ index-calendar {
   border-radius: 5px;
 }
 .subtitle {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 /************************** CAROUSEL **********************************/
 .carousel-caption {
