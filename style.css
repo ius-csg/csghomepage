@@ -265,6 +265,10 @@ p {
   margin-left: 10px;
 }
 
+.btn-primary {
+  margin-right: 5px;
+}
+
 @media (max-width: 1200px) {
   .nav li a {
     margin-right: 15px;
