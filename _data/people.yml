@@ -1,24 +1,23 @@
 
-- name: "Adam Isaac"
-  occupation: "President"
-  description: "Adam is an avid Linux user who gained interest in computer security experimenting with the various bots crawling his personal webserver.
-  Most of his time is spent playing paintball, and figuring out who pressed the wrong any key. "
-  contact: "acisaac@iu.edu"
-
 - name: "Alex Stiner"
-  occupation: "Vice President"
+  occupation: "President"
   description: "Alex is excited to explore new challenges and experiences as a Computer Science major. She also enjoys outdoor activities such as camping, hiking and kayaking"
   contact: "anstiner@iu.edu"
+
+- name: "  "
+  occupation: "Vice President"
+  description: " "
+  contact: ""
 
 - name: "Zaid Hussain"
   occupation: "Secretary"
   description: "Zaid is a curious Computer Science major, who loves learning new technologies and has a constant desire to figure out how things work the way they do."
   contact:  "zakhhuss@iu.edu"
 
-- name: "Zamia Torres"
+- name: ""
   occupation: "Events Coordinator"
-  description: "Zamia loves learning anything computer science related and likes to go caving in her spare time."
-  contact: "zetorres@iu.edu"
+  description: "  "
+  contact: "  "
 
 - name: "Edward Utria"
   occupation: "Inventory Manager"
