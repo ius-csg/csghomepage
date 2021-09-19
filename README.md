@@ -1,6 +1,12 @@
 
 This is the web site is for the CSG web page.
 
+## RubyMine
+1. Install JetBrains toolbox
+2. Install and open RubMine
+3. Get from version control to clone repository 
+
+
 ## Build instructions 
 To build the website into HTML, follow these steps.
 
