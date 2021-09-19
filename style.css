@@ -191,8 +191,7 @@ index-calendar {
   border-radius: 5px;
 }
 .subtitle {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 /************************** CAROUSEL **********************************/
 .carousel-caption {
@@ -263,6 +262,10 @@ h3 {
 
 p {
   margin-left: 10px;
+}
+
+.btn-primary {
+  margin-right: 5px;
 }
 
 @media (max-width: 1200px) {
