@@ -4,15 +4,10 @@
    description: "Alex is excited to explore new challenges and experiences as a Computer Science major. She also enjoys outdoor activities such as camping, hiking and kayaking"
    contact: "anstiner@iu.edu"
 
-- name: "Name"
-  occupation: "Vice President"
-  description: "Description"
-  contact: "email"
-
 - name: "Zaid Hussain"
-  occupation: "Secretary"
-  description: "Zaid is a curious Computer Science major, who loves learning new technologies and has a constant desire to figure out how things work the way they do."
-  contact:  "zakhhuss@iu.edu"
+  occupation: "Vice President"
+  description: "Zaid is a Computer Science major, who loves learning new technologies and has a constant desire to figure out how things work the way they do"
+  contact: "zakhhuss@iu.edu"
 
 - name: "Name"
   occupation: "Events Coordinator"
@@ -23,4 +18,3 @@
   occupation: "Inventory Manager"
   description: "Edward is a Computer Science Major who enjoys the constant problem solving struggle."
   contact: "eutria@iu.edu"
-
