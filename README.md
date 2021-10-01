@@ -26,6 +26,6 @@ To actively develop on the Site you will first need to install Jeykell with `gem
 5. You will now be able to hit the play button in the top right of the editor to serve the website.
 
 #### CLI
-1. Change direcotory to the root of the project.
+1. Change directory to the root of the project.
 2. Run `bundle exec jekyll serve` to start serving the website.
 
