@@ -3,8 +3,6 @@ slides:
     src: "../assets/images/carousel/pic1.jpg"
   - alt: "Other Computers"
     src: "../assets/images/carousel/pic2.jpg"
-  - alt: "CCDC Competition"
-    src: "../assets/images/carousel/pic3.jpg"
   - alt: "CSG DataCenter"
     src: "../assets/images/carousel/pic4.jpg"
   - alt: "CCDC Infrastructure Group Photo"
