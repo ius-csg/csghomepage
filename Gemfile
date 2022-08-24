@@ -23,6 +23,10 @@ gem 'wdm' if Gem.win_platform?
 
 gem 'rake'
 
+gem 'jekyll-sitemap'
+
+gem 'jekyll-loading-lazy'
+
 # Gems used for testing only
 group :testing do
   gem 'html-proofer'
