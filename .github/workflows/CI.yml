@@ -26,26 +26,26 @@ jobs:
         with:
           token: ${{secrets.github_token}}
       
-      - name: Setup Ruby, JRuby and TruffleRuby
-      # You may pin to the exact commit or the version.
-      # uses: ruby/setup-ruby@8bc9ca9ace0139aae24423f15269b9673354b495
-        uses: ruby/setup-ruby@v1.46.1
-        with:
-          # Engine and version to use, see the syntax in the README. Reads from .ruby-version or .tool-versions if unset.
-          ruby-version: 2.6.6 # optional, default is default
-          # The version of Bundler to install. Either 'none', 1, 2, 'latest' or 'Gemfile.lock'.
-          # For 'Gemfile.lock', the version is determined based on the BUNDLED WITH section from the file Gemfile.lock, $BUNDLE_GEMFILE.lock or gems.locked.
-          # Defaults to 'Gemfile.lock' if the file exists and 'latest' otherwise.
-
-          #bundler: true  # optional, default is default
-          # Run "bundle install", and cache the result automatically. Either true or false.
-          # bundler-cache: true # optional, default is false
-          # The working directory to use for resolving paths for .ruby-version, .tool-versions and Gemfile.lock.
-          working-directory: ${{env.working-directory}} # optional, default is .
-           
-      - run: "bundle exec rake"
-
-      - run: "bundle exec htmlproofer --url-ignore '/cslabs,https://list.ius.edu/sympa/subscribe/csg-announce-l' ./_site --check-html"
+#      - name: Setup Ruby, JRuby and TruffleRuby
+#      # You may pin to the exact commit or the version.
+#      # uses: ruby/setup-ruby@8bc9ca9ace0139aae24423f15269b9673354b495
+#        uses: ruby/setup-ruby@v1.46.1
+#        with:
+#          # Engine and version to use, see the syntax in the README. Reads from .ruby-version or .tool-versions if unset.
+#          ruby-version: 2.6.6 # optional, default is default
+#          # The version of Bundler to install. Either 'none', 1, 2, 'latest' or 'Gemfile.lock'.
+#          # For 'Gemfile.lock', the version is determined based on the BUNDLED WITH section from the file Gemfile.lock, $BUNDLE_GEMFILE.lock or gems.locked.
+#          # Defaults to 'Gemfile.lock' if the file exists and 'latest' otherwise.
+#
+#          #bundler: true  # optional, default is default
+#          # Run "bundle install", and cache the result automatically. Either true or false.
+#          # bundler-cache: true # optional, default is false
+#          # The working directory to use for resolving paths for .ruby-version, .tool-versions and Gemfile.lock.
+#          working-directory: ${{env.working-directory}} # optional, default is .
+#
+#      - run: "bundle exec rake"
+#
+#      - run: "bundle exec htmlproofer --url-ignore '/cslabs,https://list.ius.edu/sympa/subscribe/csg-announce-l' ./_site --check-html"
 
       - run: echo "Build Id is ${{ steps.buildnumber.outputs.build_number }}"
       #- uses: actions/upload-artifact@v2.2.0
