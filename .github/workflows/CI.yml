@@ -32,7 +32,7 @@ jobs:
         uses: ruby/setup-ruby@v1.46.1
         with:
           # Engine and version to use, see the syntax in the README. Reads from .ruby-version or .tool-versions if unset.
-          ruby-version: 2.7.6 # optional, default is default
+          ruby-version: 2.7.1 # optional, default is default
           # The version of Bundler to install. Either 'none', 1, 2, 'latest' or 'Gemfile.lock'.
           # For 'Gemfile.lock', the version is determined based on the BUNDLED WITH section from the file Gemfile.lock, $BUNDLE_GEMFILE.lock or gems.locked.
           # Defaults to 'Gemfile.lock' if the file exists and 'latest' otherwise.
